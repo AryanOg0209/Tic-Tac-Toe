@@ -1,4 +1,4 @@
-# ✨ Neon Tic Tac Toe
+# ✨Tic Tac Toe
 
 A glowing, animated version of the classic **Tic Tac Toe** game — built using **HTML**, **CSS**, and **JavaScript**. Features a neon theme, winner detection, draw logic, and smooth game animations that bring the experience to life.
 
@@ -34,12 +34,12 @@ A glowing, animated version of the classic **Tic Tac Toe** game — built using 
 
 1. **Clone this repository:**
    ```bash
-   git clone https://github.com/yourusername/neon-tic-tac-toe.git
-   cd neon-tic-tac-toe
+   git clone https://github.com/AryanOg0209/Tic-Tac-Toe.git
+   cd Tic-Tac-Toe
    Open index.html in any web browser.
 ✅ No server or installation needed — just run it locally!
 📁 Project Structure
-📁 neon-tic-tac-toe/
+📁 Tic-Tac-Toe/
 ├── index.html       # Game UI and structure
 ├── style.css        # Styling and neon effects
 ├── first.js         # Game logic and interactivity
