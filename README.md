@@ -36,30 +36,34 @@ A glowing, animated version of the classic **Tic Tac Toe** game — built using 
    ```bash
    git clone https://github.com/AryanOg0209/Tic-Tac-Toe.git
    cd Tic-Tac-Toe
-   Open index.html in any web browser.
+2. Open index.html in any web browser.
 ✅ No server or installation needed — just run it locally!
-📁 Project Structure
-📁 Tic-Tac-Toe/
-├── index.html       # Game UI and structure
-├── style.css        # Styling and neon effects
+```bash
+Tic-Tac-Toe/
+├── index.html       # Game UI and layout
+├── style.css        # Neon styles, animations, and layout
 ├── first.js         # Game logic and interactivity
-├── preview.png      # Screenshot of game (for README)
+├── preview.png      # Screenshot used in README
 └── README.md        # Project documentation
-✨ Visual & Animation Highlights
-🔲 Neon pink background: #8f00ff
-🟨 Glowing player text: #f9f871
-🟩 Highlighted winner tiles: #39ff14
-🪩 Pop-up animation for winning tiles
-💬 Animated glowing winner message
-Responsive and clean layout using vmin units
-📌 Potential Future Features
-🤖 AI for single-player mode
-📱 Mobile responsiveness improvements
-🔊 Sound effects for moves, wins, and draws
-📊 Scoreboard tracking player wins
-🧾 License
-Licensed under the MIT License.
-Feel free to use, modify, and share the project with credit.
-🙌 Acknowledgements
-Built with 💜 using HTML, CSS, JavaScript and a whole lot of neon.
-Thanks to inspiration from classic arcade aesthetics and modern web magic.
+```
+
+## 🎨 Visual & Animation Highlights
+
+| Element                  | Style/Animation Details                                                                 |
+|--------------------------|------------------------------------------------------------------------------------------|
+| **Background**           | Neon Purple: `#8f00ff`                                                                   |
+| **Player Text**          | Neon Yellow: `#f9f871`                                                                   |
+| **Winning Tiles**        | Neon Green Highlight: `#39ff14`, glowing & pops out with scale + shadow                 |
+| **Winner Message**       | Animated glowing text (`.glow-msg`) with pulsing shadows                                |
+| **Buttons**              | Rounded, glowing neon colors with smooth transitions                                    |
+| **Animations**           | Custom `@keyframes popUp` & `@keyframes glowText` for dynamic feel                      |
+
+---
+## 🧾 License
+- Licensed under the MIT License.
+- Feel free to use, modify, and share the project with credit.
+---
+## 🙌 Acknowledgements
+- Built with 💜 using HTML, CSS, JavaScript and a whole lot of neon.
+- Thanks to inspiration from classic arcade aesthetics and modern web magic.
+---
