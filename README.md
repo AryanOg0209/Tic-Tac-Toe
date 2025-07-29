@@ -63,17 +63,3 @@ Feel free to use, modify, and share the project with credit.
 🙌 Acknowledgements
 Built with 💜 using HTML, CSS, JavaScript and a whole lot of neon.
 Thanks to inspiration from classic arcade aesthetics and modern web magic.
-🤝 Connect
-GitHub: yourusername
-
----
-
-### ✅ Final Checklist:
-
-- [ ] Add this content to `README.md`
-- [ ] Rename your screenshot to `preview.png` and place it in the same folder
-- [ ] Push everything to GitHub:
-  ```bash
-  git add .
-  git commit -m "Add README and preview image"
-  git push origin main
