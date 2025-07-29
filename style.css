@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding:0
+}
+body{
+    background-color:#8f00ff;
+    text-align:center;
+}
+.container{
+    height:70vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.game{
+    height:60vmin;
+    width:60vmin;
+    display:flex;
+    flex-wrap:wrap;
+    gap:1.5vmin;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+    top:20px;
+  
+   
+
+}
+.box{
+    height:18vmin;
+    width:18vmin;
+    border-radius:30px;
+    border:none;
+    font-size:8vmin;
+    color:#f9f871;
+    background-color:#ff00ff
+
+}
+h1{
+    position:relative;
+    top:10px;
+
+}
+.reset{
+    height:60px;
+    width:150px;
+    background-color:black;
+    color:white;
+    position:relative;
+    top:10px;
+    font-weight:bolder;
+    border-radius:1rem;
+    border:none;
+}
+#msg{
+    font-weight:bold;
+    font-size:40px;
+    color:green;
+    font-family:sans-serif;
+
+}
+.new-butn{
+    background-color:black;
+    color:white;
+    height:60px;
+    width:130px;
+    font-weight:bolder;
+    border-radius:1rem;
+    border:none;
+}
+.msg-container{
+    height:15vmin;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    gap:3vmin;
+}
+.hide{
+    display:none;
+}
+.highlight {
+    background-color: #39ff14 !important;
+    color: black;
+    box-shadow:
+        0 0 20px #39ff14,
+        0 0 40px #39ff14,
+        0 0 60px #39ff14;
+    transform: translateY(-10px) scale(1.1);
+    animation: popUp 0.4s ease forwards;
+    z-index: 2;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+@keyframes popUp {
+    0% {
+        transform: scale(1) translateY(0);
+        box-shadow: 0 0 0 transparent;
+    }
+    50% {
+        transform: scale(1.2) translateY(-15px);
+        box-shadow: 0 0 20px #39ff14;
+    }
+    100% {
+        transform: scale(1.1) translateY(-10px);
+        box-shadow: 0 0 40px #39ff14;
+    }
+}
+.glow-msg {
+    color: #f9f871;
+    font-size: 2rem;
+    text-shadow:
+        0 0 5px #f9f871,
+        0 0 10px #f9f871,
+        0 0 20px #f9f871;
+    animation: glowText 1s ease-in-out infinite alternate;
+}
+@keyframes glowText {
+    from {
+        text-shadow:
+            0 0 5px #f9f871,
+            0 0 10px #f9f871,
+            0 0 20px #f9f871;
+    }
+    to {
+        text-shadow:
+            0 0 10px #f9f871,
+            0 0 20px #f9f871,
+            0 0 40px #f9f871;
+    }
+}
